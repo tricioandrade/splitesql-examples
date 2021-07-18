@@ -9,7 +9,7 @@ use App\Control\Filter\Cleaner;
 
 class URLConsts extends Cleaner
 {
-    public const SERVER = 'http://localhost/spock/2021/_source/Exemple/';
+    public const SERVER = 'http://localhost/spock/2021/_source/SpliteSQLexample/';
     public const author = '@tricioandrade';
     public const Project = 'SpliteSQLTest';
     public const _HOME = 'home';
@@ -22,7 +22,7 @@ class URLConsts extends Cleaner
         define('URL', Cleaner::filter(self::__get,self::CONTROLLER,  self::string_sanitize));
         define('author',array(
             'name' => 'tricioandrade',
-            'url' => 'github.com/tricioandrade/splitesqlexemple'
+            'url' => 'github.com/tricioandrade/splitesqlexample'
         ));
 
      }

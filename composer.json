@@ -1,0 +1,25 @@
+{
+  "name": "tricioandrade/SpliteSQLExemple",
+  "description": "Gestao de Escola",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patricio Bento Andrade",
+      "email": "tricioandrade@outlook.com",
+      "role":  "Developer",
+      "homepage": "https://github.com/tricioandrade/SpliteSQLExemple"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}

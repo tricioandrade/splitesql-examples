@@ -1,0 +1,28 @@
+{
+  "name": "splitesqlexample",
+  "version": "1.0.0",
+  "description": "app for test",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tricioandrade/SpliteSQLexample.git"
+  },
+  "keywords": [
+    "sql",
+    "php",
+    "pdo"
+  ],
+  "author": "Patrício Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tricioandrade/SpliteSQLexample/issues"
+  },
+  "homepage": "https://github.com/tricioandrade/SpliteSQLexample#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0-9",
+    "bootstrap5": "^1.1.9"
+  }
+}

@@ -1,14 +1,11 @@
-<?php
-session_start();
-require_once 'vendor/autoload.php';
-\App\Control\Consts\URLConsts::defined_values();
-
-const __host = 'localhost';
-const __user = 'root';
-const __database = 'school';
-const __password = '';
-const __charset = 'utf8';
-
-new \App\Model\SpliteSQL\SGBD( __host, __user, __charset, __database, __password);
-
-new App\Control\Layout\Start();
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

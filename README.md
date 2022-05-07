@@ -1,2 +1,1 @@
-# SpliteSQLexample
- API de Consulta SQL
+# splitesql-examples

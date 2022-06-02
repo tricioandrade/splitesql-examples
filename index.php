@@ -1,10 +1,13 @@
-<?php 
+<?php
+
+require_once 'vendor/autoload.php';
 
 if(isset($_POST['btn-submit'])):
 
-
-
-
+    $customer = new ArrayObject();
+    $customer->name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+    $customer->email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $customer->phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_EMAIL);
 
 endif;
 
@@ -25,19 +28,15 @@ endif;
             <form action="" method="post" class="row g-3">
                 <div class="col-md-6">
                     <label for="inputUserName" class="form-label"><i class="fa fa-user"></i>&nbsp;Name</label>
-                    <input type="text" class="form-control" id="inputUserName">
+                    <input type="text" class="form-control" id="inputUserName" name="name">
                 </div>
                 <div class="col-6">
                     <label for="inputEmail4" class="form-label"><i class="fa fa-envelope"></i>&nbsp;Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" class="form-control"  name="email" id="inputEmail4">
                 </div>
                 <div class="col-12">
-                    <label for="inputPassword4" class="form-label"><i class="fa fa-lock"></i>&nbsp;Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label"><i class="fa fa-map"></i>&nbsp;Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <label for="inputAddress" class="form-label"><i class="fa fa-map"></i>&nbsp;Phone</label>
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="1234 Main St">
                 </div>
                 <div class="col-12">
                     <button name="btn-submit" type="submit" class="btn btn-primary">Submit</button>

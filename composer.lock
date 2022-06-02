@@ -8,17 +8,20 @@
     "packages": [
         {
             "name": "tricioandrade/splitesql",
-            "version": "v1.1.6",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tricioandrade/splitesql.git",
-                "reference": "777e355dfb8f975a2421681ea84a1e16d2efba39"
+                "reference": "675eb2e3633ec8f5344af5485f1d11f98ce24537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tricioandrade/splitesql/zipball/777e355dfb8f975a2421681ea84a1e16d2efba39",
-                "reference": "777e355dfb8f975a2421681ea84a1e16d2efba39",
+                "url": "https://api.github.com/repos/tricioandrade/splitesql/zipball/675eb2e3633ec8f5344af5485f1d11f98ce24537",
+                "reference": "675eb2e3633ec8f5344af5485f1d11f98ce24537",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
             },
             "type": "library",
             "autoload": {
@@ -39,9 +42,9 @@
             "description": "Query Builder",
             "support": {
                 "issues": "https://github.com/tricioandrade/splitesql/issues",
-                "source": "https://github.com/tricioandrade/splitesql/tree/v1.1.6"
+                "source": "https://github.com/tricioandrade/splitesql/tree/v1.1.7"
             },
-            "time": "2022-05-03T12:28:36+00:00"
+            "time": "2022-05-15T22:41:07+00:00"
         }
     ],
     "packages-dev": [],

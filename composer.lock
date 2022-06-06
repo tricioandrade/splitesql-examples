@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dbed354a245fb3617a62484bceebd84",
+    "content-hash": "c1dff6fa90c51d4c7ba739cbfa39c446",
     "packages": [
         {
             "name": "tricioandrade/splitesql",
-            "version": "v1.1.7",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tricioandrade/splitesql.git",
-                "reference": "675eb2e3633ec8f5344af5485f1d11f98ce24537"
+                "reference": "53ad3bd2d7d1122ffac3c43eeb1960bd646d9ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tricioandrade/splitesql/zipball/675eb2e3633ec8f5344af5485f1d11f98ce24537",
-                "reference": "675eb2e3633ec8f5344af5485f1d11f98ce24537",
+                "url": "https://api.github.com/repos/tricioandrade/splitesql/zipball/53ad3bd2d7d1122ffac3c43eeb1960bd646d9ca0",
+                "reference": "53ad3bd2d7d1122ffac3c43eeb1960bd646d9ca0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -35,16 +35,16 @@
             ],
             "authors": [
                 {
-                    "name": "tricioandrade",
+                    "name": "Patrício Andrade",
                     "email": "tricioandrade@outlook.com"
                 }
             ],
             "description": "Query Builder",
             "support": {
                 "issues": "https://github.com/tricioandrade/splitesql/issues",
-                "source": "https://github.com/tricioandrade/splitesql/tree/v1.1.7"
+                "source": "https://github.com/tricioandrade/splitesql/tree/v2.0.1"
             },
-            "time": "2022-05-15T22:41:07+00:00"
+            "time": "2022-06-02T14:27:19+00:00"
         }
     ],
     "packages-dev": [],

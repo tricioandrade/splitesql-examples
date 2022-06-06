@@ -2,6 +2,20 @@
 
 require_once 'vendor/autoload.php';
 
+use Tricioandrade\Splitesql\Query;
+
+const host = 'localhost';
+const user = 'root'; 
+const database = 'splitesql';
+const charset = 'utf8';
+
+
+/**
+ * Setting Connection
+ */
+$conne = new Query();
+$conne->connectDB(host, user,  charset, database, '');
+
 if(isset($_POST['btn-submit'])):
 
     $customer = new ArrayObject();
@@ -9,9 +23,18 @@ if(isset($_POST['btn-submit'])):
     $customer->email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $customer->phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_EMAIL);
 
+    /**
+     * @method insert
+     * Inserting data With insert method
+     */
+
+    $conne->insert('customers', $customer);
+    if ($conne->result()->queryState):
+        echo "<div class='container text-center'>Customer is Inserted</div>";
+    endif;
 endif;
 
-
+$conne->where('name', 'splitesql', '1');
 ?>
 <html lang="en">
 <head>

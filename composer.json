@@ -11,6 +11,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "tricioandrade/splitesql": "^1.1"
+        "tricioandrade/splitesql": "^2.0"
     }
 }
